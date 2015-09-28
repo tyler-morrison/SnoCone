@@ -1,0 +1,19 @@
+/* ==========================================================================
+    Editor Styles
+========================================================================== */
+
+/**
+ *
+ * Use this stylesheet to configure the appearance of TinyMCE for back-end
+ * users. By importing the main Sass file, the default WYSIWYG editor will
+ * appear with almost identical styles to its final output.
+ *
+ * In most cases, you will not need to edit this file...
+ *
+ */
+
+@import 'project';
+
+body {
+  margin: 12px !important;
+}

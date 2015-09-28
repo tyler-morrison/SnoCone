@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "js/main.js"
+      ],
+      "main": true
+    },
+    "project.css": {
+      "files": [
+        "css/project.scss"
+      ],
+      "main": true
+    },
+    "editor.css": {
+      "files": [
+        "css/editor.scss"
+      ]
+    },
+    "admin.css": {
+      "files": [
+        "css/admin.scss"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    },
+    "fastclick.js": {
+      "bower": ["fastclick"]
+    }
+  },
+  "config": {
+    "devUrl": "http://example.dev"
+  }
+}

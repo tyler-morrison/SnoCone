@@ -1,0 +1,56 @@
+/* ==========================================================================
+    Project Styles
+========================================================================== */
+
+/**
+ *
+ * Welcome to the main stylesheet! This theme was built using Harry Roberts'
+ * [ITCSS philosophy](http://itcss.io/) – a sane, scalable, managed CSS architecture.
+ *
+ * You will note that, unlike many other projects, all of our Sass partials are
+ * housed within a single subdirectory 'project'. Partials have been labeled in
+ * descending order, according to their use and position within the "inverted triangle".
+ *
+ * NOTE: This project replaces Harry's taxonomy of "trumps" with the term "utility" to
+ * prevent any confusion.
+ *
+ */
+
+/* 01. SETTINGS - Global variables, config settings, etc.
+========================================================================== */
+@import 'project/01.settings.color';
+@import 'project/01.settings.global';
+
+/* 02. TOOLS - Default mixins and functions.
+========================================================================== */
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+// endbower
+
+@import 'project/02.tools.mixins';
+@import 'project/02.tools.aliases';
+
+/* 03. GENERIC - Ground-zero styles, normalize, reset, etc.
+========================================================================== */
+@import 'project/03.generic.normalize';
+
+/* 04. BASE - Unclassed HTML elements.
+========================================================================== */
+@import 'project/04.base.type';
+@import 'project/04.base.links';
+@import 'project/04.base.quotes';
+@import 'project/04.base.page';
+
+/* 05. OBJECTS - Cosmetic-free design patterns.
+========================================================================== */
+@import 'project/05.objects.wrappers';
+
+/* 06. COMPONENTS - Designed UI components.
+========================================================================== */
+@import 'project/06.components.pull-quote';
+
+/* 07. UTILITY - Overrides and helpers.
+========================================================================== */
+@import 'project/07.utility.show-hide';
+@import 'project/07.utility.widths-responsive';
